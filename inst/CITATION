@@ -1,0 +1,17 @@
+## -*- R -*-
+citHeader("To cite the R package 'Ohandy' in publications use:")
+
+citEntry(entry  = "unpublished",
+         title  = "Handy Opower Functions",
+         author = personList(
+                 person(first="Erik", last="Shilts",
+                        email="erik.shilts@opower.com"),
+                 person(first="Yoni", last="Ben-Smellshulam",
+                        email="yoni@opower.com"),
+                 person(first="Insight", last="Engine",
+                        email="tyler@opower.com")),
+         year = 2011,
+         note = paste("Created for internal Opower use"),
+        textVersion = paste(
+         "Dunno what this is")
+         )

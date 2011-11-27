@@ -1,0 +1,14 @@
+Package: Ohandy
+Maintainer: Erik Shilts <erik.shilts@opower.com>
+License: GPL-2
+Title: Does handy stuff
+Type: Package
+LazyLoad: yes
+Author: Erik Shilts & Yoni Ben-Smellshulam
+Description: You know, all sorts of handy stuff
+Version: 0.1
+Date: 2011-09-29
+Collate:
+    'describe_data.R'
+    'transform_data.R'
+    'utility.R'
