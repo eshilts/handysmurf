@@ -5,6 +5,8 @@
 #' string second.
 #'
 #' @param \dots vectors of items from a list
+#' @param sep_string string to use for separating concatenated items
+#' @param collapse_string string used to separate items when collapsed into a single string
 #' @author Erik Shilts
 #' @note Part of a suite of Opower packages
 #' @examples
