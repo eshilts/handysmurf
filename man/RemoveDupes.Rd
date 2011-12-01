@@ -1,6 +1,10 @@
 \name{RemoveDupes}
 \alias{RemoveDupes}
+<<<<<<< HEAD
 \title{Remove Duplicates From a Dataset}
+=======
+\title{Remove duplicates from dataset}
+>>>>>>> 946a93908bb0f9925c07a5e18357b562de0d968f
 \usage{
   RemoveDupes(dat)
 }
@@ -16,10 +20,13 @@
 \note{
   Part of a suite of Opower packages
 }
+<<<<<<< HEAD
 \examples{
 temp <- data.frame(a=c(1:10, 1:5), b=c(6:15, 6:10))
 RemoveDupes(temp)
 }
+=======
+>>>>>>> 946a93908bb0f9925c07a5e18357b562de0d968f
 \author{
   Erik Shilts
 }

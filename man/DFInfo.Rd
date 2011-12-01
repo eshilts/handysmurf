@@ -1,6 +1,10 @@
 \name{DFInfo}
 \alias{DFInfo}
+<<<<<<< HEAD
 \title{Useful Information on a Given Dataframe}
+=======
+\title{Get useful information on a given dataframe}
+>>>>>>> 946a93908bb0f9925c07a5e18357b562de0d968f
 \usage{
   DFInfo(dat)
 }

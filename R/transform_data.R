@@ -2,7 +2,6 @@
 # Functions to change data
 
 #' Remove Duplicates From a Dataset
-#'
 #' Removes duplicated rows from a dataframe
 #'
 #' @param dat a data.frame 
@@ -18,7 +17,6 @@ RemoveDupes <- function(dat) {
 }
 
 #' Set a Maximum Value for a Numeric Vector
-#'
 #' Top codes a vector by setting a maximum value
 #'
 #' @param vec a numeric vector
@@ -35,7 +33,6 @@ TopCode <- function(vec, level=100) {
 }
 
 #' Set a Minimum Value For a Numeric Vector
-#'
 #' Bottom codes a vector by setting a minimum value
 #'
 #' @param vec a numeric vector

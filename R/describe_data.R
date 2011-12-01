@@ -1,7 +1,6 @@
 # Functions to describe data
 
 #' Sorted Names of a Dataframe
-#'
 #' Equivalent to sort(names(x))
 #'
 #' @param dat a data.frame 
@@ -30,7 +29,6 @@ classes <- function(dat) {
 }
 
 #' Useful Information on a Given Dataframe
-#'
 #' Returns a dataframe with the names of each of the columns, the class, and number of missing observations
 #'
 #' @param dat a data frame
@@ -63,7 +61,7 @@ tablena <- function(...) {
 
 #' First Row of a Dataframe
 #'
-#' Equivalent to head(dat, n = 1). Allows you to peek at the first line.
+#' Equivalent to \code{head(dat, n = 1)}. Allows you to peek at the first line.
 #' Pretty clever name, no?
 #'
 #' @param dat a dataframe

@@ -1,7 +1,6 @@
 # Utility functions
 
 #' Source Files Without Echoing
-#'
 #' Small time-saver with an obvious name.
 #'
 #' @param \dots files to source and other options for source( )
@@ -17,7 +16,6 @@ SourceNoEcho <- function(...) {
 #' Quit the R Session Without Saving Your Workspace
 #'
 #' The save workspace[y/n] prompt is fucking annoying. Avoid it with \code{qn()}
-#' @aliases qn .q
 #' @param \dots other parameters for \code{qn()}
 #' @note Part of a suite of Opower packages
 #' @author Erik Shilts - Shamelessly ripped from stackoverflow
@@ -26,10 +24,8 @@ SourceNoEcho <- function(...) {
 qn <- function(...) {
   q(..., save='no')
 }
-.q <- qn
 
 #' Useful Version of Objects in Memory
-#'
 #' A quick way to see what objects were created in the R session and their sizes
 #'
 #' @param \dots parameters to pass to \code{lsos}
@@ -38,12 +34,11 @@ qn <- function(...) {
 #' @author Erik Shilts - Shamelessly ripped from stackoverflow
 #' @seealso \code{\link{ls}}
 #' @export
-lsos<- function(..., n=10) {
+lsos <- function(..., n=10) {
   ls.objects(..., order.by="Size", decreasing=TRUE, head=TRUE, n=n)
 }
 
 #' Useful Version of Objects in Memory - Expanded
-#'
 #' A quick way to see what objects were created in the R session and their sizes
 #'
 #' @param pos an alternative to name in \code{ls}
