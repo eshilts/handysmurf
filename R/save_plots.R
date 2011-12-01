@@ -12,8 +12,8 @@
 #' @note Part of a suite of Opower packages
 #' @export
 save_plots_all <- function(grobs, prefix, out_directory='out', height=8, width=11) {
-  file_name <- file.path(out, paste(prefix, '_all.pdf', sep=''))
-  pdf(file=file_name, height=height, width=width, units='in')
+  file_name <- file.path(out_directory, paste(prefix, '_all.pdf', sep=''))
+  pdf(file=file_name, height=height, width=width)
     print(grobs)
   dev.off()
   
@@ -36,7 +36,7 @@ save_plots_all <- function(grobs, prefix, out_directory='out', height=8, width=1
 #' @export
 save_plots_each <- function(grobs, prefix, out_directory='out', res=250, height=8, width=11) {
   for(i in names(grobs)) {
-    file_name <- file.path(out, paste(prefix, '_each_', i, '.png', sep=''))
+    file_name <- file.path(out_directory, paste(prefix, '_each_', i, '.png', sep=''))
     png(file=file_name, res=res, height=height, width=width, units='in')
       print(grobs[[i]])
     dev.off()
