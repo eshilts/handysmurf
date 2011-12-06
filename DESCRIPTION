@@ -1,14 +1,17 @@
 Package: Ohandy
+Title: Does handy stuff
+Description: You know, all sorts of handy R stuff
+Type: Package
 Maintainer: Erik Shilts <erik.shilts@opower.com>
 License: GPL-2
-Title: Does handy stuff
-Type: Package
 LazyLoad: yes
 Author: Erik Shilts & Yoni Ben-Smellshulam
-Description: You know, all sorts of handy stuff
 Version: 0.1
-Date: 2011-09-29
+Date: 2011-12-06
 Collate:
     'describe_data.R'
+    'log_function_arguments.R'
+    'log_list.R'
+    'save_plots.R'
     'transform_data.R'
     'utility.R'

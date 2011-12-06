@@ -1,20 +1,17 @@
-<<<<<<< HEAD
-=======
-export(.ls.objects)
->>>>>>> 946a93908bb0f9925c07a5e18357b562de0d968f
 export(BottomCode)
 export(classes)
 export(concat)
 export(DFInfo)
 export(first)
 export(last)
-<<<<<<< HEAD
+export(log_function_arguments)
+export(log_list)
 export(ls.objects)
-=======
->>>>>>> 946a93908bb0f9925c07a5e18357b562de0d968f
 export(lsos)
 export(qn)
 export(RemoveDupes)
+export(save_plots_all)
+export(save_plots_each)
 export(sn)
 export(SourceNoEcho)
 export(tablena)
