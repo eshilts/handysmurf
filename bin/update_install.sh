@@ -8,7 +8,7 @@ else
   git checkout master
 fi
 
-echo pwd
+echo `pwd`
 git pull git@github.opower.com:eshilts/handysmurf.git master
 cd ..
 handysmurf/bin/roxygenize.R
