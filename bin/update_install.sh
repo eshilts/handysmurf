@@ -11,7 +11,9 @@ fi
 echo `pwd`
 git pull git@github.opower.com:eshilts/handysmurf.git master
 cd ..
+echo `pwd`
 handysmurf/bin/roxygenize.R
+echo `pwd`
 echo 'Building handysmurf.'
 R CMD BUILD handysmurf
 cd ~
