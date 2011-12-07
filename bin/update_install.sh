@@ -1,18 +1,18 @@
 #!/bin/sh
 
-cd $workspace/Ohandy
+cd $workspace/handysmurf
 if [ `git name-rev --name-only HEAD` = 'master' ]
   then echo 'Already in branch master'
 else
   git checkout master
 fi
 
-git pull git@github.opower.com:eshilts/Ohandy.git master
+git pull git@github.opower.com:eshilts/handysmurf.git master
 cd ..
-bin/roxygenize.R
-echo 'Building Ohandy.'
-R CMD BUILD Ohandy
+handysmurf/bin/roxygenize.R
+echo 'Building handysmurf.'
+R CMD BUILD handysmurf
 cd ~
-echo 'Installing Ohandy.'
-R CMD INSTALL $workspace/Ohandy_0.1.tar.gz
-cd $workspace/Ohandy
+echo 'Installing handysmurf.'
+R CMD INSTALL $workspace/handysmurf_0.1.tar.gz
+cd $workspace/handysmurf
