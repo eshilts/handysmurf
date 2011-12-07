@@ -4,9 +4,11 @@ cd $workspace/handysmurf
 if [ `git name-rev --name-only HEAD` = 'master' ]
   then echo 'Already in branch master'
 else
+  echo 'Checking out master.'
   git checkout master
 fi
 
+echo pwd
 git pull git@github.opower.com:eshilts/handysmurf.git master
 cd ..
 handysmurf/bin/roxygenize.R

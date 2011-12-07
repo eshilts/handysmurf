@@ -9,5 +9,5 @@ This will pull the latest version of the package from github, build it, and inst
 ---- R Settings
 Add the code below to your ~/.Rprofile settings:
 .First <- function() {
-    library(Ohandy)
+    library(handysmurf)
 }

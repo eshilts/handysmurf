@@ -1,5 +1,5 @@
 ## -*- R -*-
-citHeader("To cite the R package 'Ohandy' in publications use:")
+citHeader("To cite the R package 'handysmurf' in publications use:")
 
 citEntry(entry  = "unpublished",
          title  = "Handy Opower Functions",
