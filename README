@@ -11,3 +11,10 @@ Add the code below to your ~/.Rprofile settings:
 .First <- function() {
     library(Ohandy)
 }
+
+
+Development
+-----------
+
+To build the package, including generating documentation and running tests:
+  .bin/build.sh
