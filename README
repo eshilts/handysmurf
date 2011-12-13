@@ -1,16 +1,13 @@
-Handy R Functions
+Handy R Functions for Opower users
+----------------------------------
 
----- Installation
+
+Installation
+------------
 From the handysmurf directory run:
 bin/update_install.sh
 
 This will pull the latest version of the package from github, build it, and install from source.
-
----- R Settings
-Add the code below to your ~/.Rprofile settings:
-.First <- function() {
-    library(Ohandy)
-}
 
 
 Development
