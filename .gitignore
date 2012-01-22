@@ -1,0 +1,5 @@
+*~
+*.swp
+*.RData
+man
+*.Rcheck

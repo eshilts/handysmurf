@@ -1,7 +1,6 @@
 Package: handysmurf
 Title: Does handy stuff
 Description: You know, all sorts of handy R stuff
-Type: Package
 Maintainer: Erik Shilts <erik.shilts@opower.com>
 License: GPL-2
 LazyLoad: yes
@@ -15,3 +14,5 @@ Collate:
     'save_plots.R'
     'transform_data.R'
     'utility.R'
+    'file_to_string.R'
+    'lds.R'
