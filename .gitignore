@@ -3,3 +3,8 @@
 *.RData
 man
 *.Rcheck
+*.idea
+*.bck
+*.tar.gz
+NAMESPACE
+*.Rhistory
