@@ -1,0 +1,46 @@
+Handy Smurf
+A package of handy R functions
+!https://wiki.opower.com/download/attachments/25070451/handysmurf.jpg!
+
+h2. Installation
+
+From the handysmurf directory run:
+@bin/update_install.sh@
+
+This will pull the latest version of the package from "github":http://github.opower.com/OPOWER/handysmurf, build it, and install from source.
+
+h2. R Settings
+
+Add the code below to your ~/.Rprofile settings to automatically load handysmurf at the beginning of each R session:
+
+bc. .First <- function() {
+  library(handysmurf)
+}
+
+Alternately, load handysmurf like you would any other package:
+@library(handysmurf)@
+
+h2. Capabilities
+
+Documentation of the various capabilities. This is not meant to be comprehensive, merely a short introduction into what's available.
+
+h3. Data description tools
+
+|_. Function|_. Description|
+|@tablena(...)@|Quick way to include NAs in table results. Shorthand for @table(..., useNA='ifany')@|
+
+Tools for describing data.
+
+h3. Data munging tools
+
+Tools to munge data more quickly and efficiently.
+
+|_. Function|_. Description|
+|@concat(...)@|Pastes two strings together without a space. Shorthand for @paste(..., sep='')@|
+
+h3. Logging
+
+Quick logging capabilities
+
+|_. Function|_. Description|
+|@lds(...)@|Shorthand for @logdebug(sprintf(...))@. Dependent on logging package.|
