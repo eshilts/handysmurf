@@ -1,4 +1,5 @@
-Handy Smurf
+h1. Handy Smurf
+
 A package of handy R functions
 !https://wiki.opower.com/download/attachments/25070451/handysmurf.jpg!
 
@@ -26,10 +27,12 @@ Documentation of the various capabilities. This is not meant to be comprehensive
 
 h3. Data description tools
 
+Tools for describing data.
+
 |_. Function|_. Description|
 |@tablena(...)@|Quick way to include NAs in table results. Shorthand for @table(..., useNA='ifany')@|
 
-Tools for describing data.
+<hr />
 
 h3. Data munging tools
 
@@ -38,9 +41,13 @@ Tools to munge data more quickly and efficiently.
 |_. Function|_. Description|
 |@concat(...)@|Pastes two strings together without a space. Shorthand for @paste(..., sep='')@|
 
+<hr />
+
 h3. Logging
 
 Quick logging capabilities
 
 |_. Function|_. Description|
 |@lds(...)@|Shorthand for @logdebug(sprintf(...))@. Dependent on logging package.|
+
+<hr />
