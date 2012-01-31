@@ -40,6 +40,7 @@ Tools to munge data more quickly and efficiently.
 
 |_. Function|_. Description|
 |@concat(...)@|Pastes two strings together without a space. Shorthand for @paste(..., sep='')@|
+|@file_to_string@|Takes a text file and returns all text as a single string. Useful for importing things like SQL queries.|
 
 <hr />
 
@@ -49,5 +50,15 @@ Quick logging capabilities
 
 |_. Function|_. Description|
 |@lds(...)@|Shorthand for @logdebug(sprintf(...))@. Dependent on logging package.|
+|@log_list(..., sep_string=':', collapse_string=', ')@|Streamlined logging or printing of one or more vectors. Useful for logging function arguments.|
+|@log_function_arguments(arguments)@|Uses @log_list@ to log arguments to a function. Try: @log_function_arguments(match.call(expand.dots=TRUE))@|
+
+h3. Utilities
+
+Tools to help and inform your workflow.
+
+|_. Function|_. Description|
+|@load_functions(path='R', file_endings='rRsS')@|Quick way to source all your R files in a project. The workflow is: create an executable script, put functions in files in the R directory, and add calls to @library(handysmurf)@ and @load_functions()@ to make them available.|
+|@lsos()@|Summary of the 10 largest objects in the R session with human readable output.|
 
 <hr />
