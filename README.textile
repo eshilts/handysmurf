@@ -53,6 +53,8 @@ Quick logging capabilities
 |@log_list(..., sep_string=':', collapse_string=', ')@|Streamlined logging or printing of one or more vectors. Useful for logging function arguments.|
 |@log_function_arguments(arguments)@|Uses @log_list@ to log arguments to a function. Try: @log_function_arguments(match.call(expand.dots=TRUE))@|
 
+<hr />
+
 h3. Utilities
 
 Tools to help and inform your workflow.
