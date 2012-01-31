@@ -16,3 +16,5 @@ Collate:
     'utility.R'
     'file_to_string.R'
     'lds.R'
+    'capwords.R'
+    'load_functions.R'

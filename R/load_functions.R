@@ -6,8 +6,7 @@
 #' @author Erik Shilts
 #' @export
 load_functions <- function(path='R', file_endings='rRsS') {
-  loginfo('Loading functions.')
-  lapply(grep(concat('*[.][', file_endings, ']$'), list.files(directory, full.names=TRUE), value=TRUE), FUN=source)
+  lapply(grep(concat('*[.][', file_endings, ']$'), list.files(path, full.names=TRUE), value=TRUE), FUN=source)
 
   return(TRUE)
 }

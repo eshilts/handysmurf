@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 *~
 *.swp
 *.RData
@@ -10,7 +9,6 @@ man
 NAMESPACE
 *.Rhistory
 =======
-Ohandy.Rcheck
-Ohandy_*.tar.gz
+handysmurf.Rcheck
+handysmurf_*.tar.gz
 *~
->>>>>>> f640c922c8faedfb9ffc5962d6252b267cd559ae
