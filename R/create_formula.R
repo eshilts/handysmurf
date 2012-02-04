@@ -6,6 +6,6 @@
 #' @author Erik Shilts
 #' @export
 create_formula <- function(lhs, rhs) {
-  stopifnot(unique(lhs) == 1)
+  stopifnot(length(unique(lhs)) == 1)
   as.formula(sprintf('%s ~ %s', unique(lhs), paste(unique(rhs), collapse = '+')))
 }
