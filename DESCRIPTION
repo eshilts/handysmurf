@@ -18,3 +18,5 @@ Collate:
     'lds.R'
     'capwords.R'
     'load_functions.R'
+    'create_formula.R'
+    'stack_list.R'
