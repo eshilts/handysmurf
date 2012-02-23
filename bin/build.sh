@@ -1,4 +1,4 @@
 #!/bin/sh
 bin/roxygenize.R
 R CMD build .
-R CMD check Ohandy_*.tar.gz
+R CMD check handysmurfy_*.tar.gz
