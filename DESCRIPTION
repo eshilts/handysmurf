@@ -23,3 +23,5 @@ Collate:
     'concat.R'
     'remove_dupes.R'
     'top_code.R'
+    'remove_constant_columns.R'
+    'remove_NA_columns.R'
