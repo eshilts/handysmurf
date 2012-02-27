@@ -5,7 +5,7 @@ Maintainer: Erik Shilts <erik.shilts@opower.com>
 License: GPL-2
 LazyLoad: yes
 Author: Erik Shilts & Yoni Ben-Smellshulam
-Version: 0.1
+Version: 0.2
 Date: 2011-12-06
 Collate:
     'describe_data.R'

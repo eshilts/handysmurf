@@ -15,5 +15,5 @@ echo 'Building handysmurf.'
 R CMD BUILD handysmurf
 cd ~
 echo 'Installing handysmurf.'
-R CMD INSTALL $workspace/handysmurf_0.1.tar.gz
+R CMD INSTALL $workspace/handysmurf_*.tar.gz
 cd $workspace/handysmurf
