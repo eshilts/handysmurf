@@ -31,6 +31,7 @@ Tools for describing data.
 
 |_. Function|_. Description|
 |@tablena(...)@|Quick way to include NAs in table results. Shorthand for @table(..., useNA='ifany')@|
+|@count_NA(...)@|Counts of missing data for each column in a dataframe.|
 
 <hr />
 

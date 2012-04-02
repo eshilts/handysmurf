@@ -3,6 +3,8 @@
 #' ending in .r, .s, .R, or .S from the current path. The function allows the user to specify a different
 #' path and to change the file endings. However, it currently only works with one letter file endings.
 #'
+#' @param path path to directory to source R files from
+#' @param file_endings one letter file endings to source
 #' @author Erik Shilts
 #' @export
 load_functions <- function(path='R', file_endings='rRsS') {
