@@ -26,3 +26,4 @@ Collate:
     'remove_constant_columns.R'
     'remove_NA_columns.R'
     'count_NA.R'
+    'sample_on_variable.R'
