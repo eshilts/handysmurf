@@ -31,7 +31,7 @@ Tools for describing data.
 
 |_. Function|_. Description|
 |@tablena(...)@|Quick way to include NAs in table results. Shorthand for @table(..., useNA='ifany')@|
-|@count_NA(...)@|Counts of missing data for each column in a dataframe.|
+|@countna(...)@|Counts of missing data for each column in a dataframe.|
 
 <hr />
 
@@ -41,7 +41,8 @@ Tools to munge data more quickly and efficiently.
 
 |_. Function|_. Description|
 |@concat(...)@|Pastes two strings together without a space. Shorthand for @paste(..., sep='')@|
-|@file_to_string@|Takes a text file and returns all text as a single string. Useful for importing things like SQL queries.|
+|@file_to_string(...)@|Takes a text file and returns all text as a single string. Useful for importing things like SQL queries.|
+|@sample_on_variable(dat, var_name, num_sample)@|Allows sampling of a panel dataset. Returns a dataset with all the rows corresponding to the randomly sampled @num_sample@ unique levels of @var_name@.|
 
 <hr />
 

@@ -6,6 +6,6 @@
 #' @export
 #' @examples
 #' df <- data.frame(a = 1:10, b = rep(NA, 10), c=rep(c(1, NA), 5))
-#' count_NA(df)
-count_NA <- function(dat)
+#' countna(df)
+countna <- function(dat)
   sapply(dat, function(x) sum(is.na(x)))
