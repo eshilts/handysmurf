@@ -5,6 +5,7 @@
 #' @param dat dataframe to sample from
 #' @param var_name variable to sample on
 #' @param num_sample number of unique values of var_name
+#' @author Erik Shilts
 #' @export
 #' @examples
 #' dat <- data.frame(x=rep(letters[1:5], 5), y=1:25)
