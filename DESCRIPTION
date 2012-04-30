@@ -28,3 +28,5 @@ Collate:
     'sample_on_variable.R'
     'countna.R'
     'pad_month.R'
+    'load_sql_from_package.R'
+    'pad_zeros.R'
